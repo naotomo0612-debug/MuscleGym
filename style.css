@@ -26,6 +26,14 @@ h1 {
     font-size: 100px;
     line-height: 1.2;
 }
+
+.input-box {
+    position: relative;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+}
+
 .input-box  input {
     margin-top: 16px;
     border-radius: 8px;
@@ -43,12 +51,21 @@ h1 {
     background-color: #222; 
     color: white;
     font-size: 15px;
-    padding: 10px 20px;
+    padding: 10px 45px 10px 20px;
 }
 
 .input-box input::placeholder {
     color: #ffffff; 
 }
+
+.input-box .fa-solid {
+    position: absolute;
+    right: 15px;  
+    bottom: 12px;       
+    color: #f1ca7a; 
+    font-size: 18px;    
+}
+
 
 .login button {
     margin-top: 20px;
@@ -73,7 +90,18 @@ h1 {
 .input-box input {
     width: 80%;
     box-sizing: border-box;
+
 }
+
+.new {
+    display: block;
+    width: 100px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
 }
 
 

@@ -6,9 +6,8 @@ body {
 }
 
 h1 {
-   font-family: 'Arial Black', sans-serif; /* 文字を太くして金を目立たせる */
+   font-family: 'Arial Black', sans-serif; 
 
-    /* 圧倒的 VINCULUM ゴールドのグラデーション */
     background: linear-gradient(
         135deg, 
         #fedb96 0%, 
@@ -61,3 +60,20 @@ h1 {
 .new a {
     color: aqua;
 }
+
+@media (max-width: 480px) {body {
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.input-box input {
+    width: 80%;
+    box-sizing: border-box;
+}
+}
+
+

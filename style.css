@@ -90,7 +90,10 @@ h1 {
 .input-box input {
     width: 80%;
     box-sizing: border-box;
+}
 
+.input-box .fa-solid {
+    right: 12px;
 }
 
 .new {

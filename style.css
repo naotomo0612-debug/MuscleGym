@@ -88,6 +88,11 @@ h1 {
     margin-top: 80px;
 }
 
+.input-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+
 .input-box input {
     width: 80%;
     box-sizing: border-box;

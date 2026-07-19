@@ -74,6 +74,13 @@ h1 {
     padding: 10px 20px;
 }
 
+.input-box label {
+    display: inline-block;
+    width: 110px;
+    text-align: right; 
+    margin-right: 10px; /
+}
+
 .new a {
     color: aqua;
 }
